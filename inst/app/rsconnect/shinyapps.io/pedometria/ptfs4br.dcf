@@ -4,10 +4,9 @@ username:
 account: pedometria
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 2051367
-bundleId: 2965753
+appId: 2053098
+bundleId: 2965926
 url: https://pedometria.shinyapps.io/ptfs4br/
-when: 1585940929.38608
+when: 1585943145.48652
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: carbon_and_organic_matter.rda

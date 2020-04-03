@@ -51,5 +51,5 @@ pkgdown::build_site()
 # upload to CRAN
 devtools::release(check = FALSE)
 
-# Shiny App ###################################################################################################
+# Deploy Shiny App ############################################################################################
 shiny::runApp(appDir = "inst/app")

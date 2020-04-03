@@ -7,9 +7,6 @@
 #    http://shiny.rstudio.com/
 #
 
-if (!require(shiny)) {
-  utils::install.packages(pkgs = "shiny", dependencies = TRUE)
-}
 library(shiny)
 
 # Define UI for data upload app ###############################################################################
@@ -226,13 +223,13 @@ server <- function (input, output) {
       }
     )
   
-  # Descarregar dados processados
+  # Download processed data in the CSV format
   output$downloadData <- downloadHandler(
     filename = function () { 
       paste("data-", Sys.Date(), ".csv", sep = "")
     },
     content = function (file) {
-      write.csv(getData(), file, row.names = FALSE, sep = input$sep, quote = input$quote)
+      write.csv(getData(), file, row.names = FALSE)
     }
   )
 }
