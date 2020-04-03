@@ -1,9 +1,14 @@
-#' Run app
+#' Run application locally
+#' 
+#' @note A web version of the application is available at \url{https://pedometria.shinyapps.io/ptfs4br/}.
 #' 
 #' @export
 #' 
 #' @examples 
-#' runApp
+#' \dontrun{
+#' runApp()
+#' }
+###############################################################################################################
 runApp <- 
   function () {
     appDir <- system.file("app", package = "ptfs4br")

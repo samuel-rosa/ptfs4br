@@ -2,13 +2,18 @@
 % Please edit documentation in R/runApp.R
 \name{runApp}
 \alias{runApp}
-\title{Run app}
+\title{Run application locally}
 \usage{
 runApp()
 }
 \description{
-Run app
+Run application locally
+}
+\note{
+A web version of the application is available at \url{https://pedometria.shinyapps.io/ptfs4br/}.
 }
 \examples{
-runApp
+\dontrun{
+runApp()
+}
 }

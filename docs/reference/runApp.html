@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Run app — runApp • ptfs4br</title>
+<title>Run application locally — runApp • ptfs4br</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Run app — runApp" />
-<meta property="og:description" content="Run app" />
+<meta property="og:title" content="Run application locally — runApp" />
+<meta property="og:description" content="Run application locally" />
 
 
 
@@ -111,31 +111,26 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Run app</h1>
+    <h1>Run application locally</h1>
     <small class="dont-index">Source: <a href='https://github.com/samuel-rosa/ptfs4br/blob/master/R/runApp.R'><code>R/runApp.R</code></a></small>
     <div class="hidden name"><code>runApp.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Run app</p>
+    <p>Run application locally</p>
     </div>
 
     <pre class="usage"><span class='fu'>runApp</span>()</pre>
 
 
+    <h2 class="hasAnchor" id="note"><a class="anchor" href="#note"></a>Note</h2>
+
+    <p>A web version of the application is available at <a href='https://pedometria.shinyapps.io/ptfs4br/'>https://pedometria.shinyapps.io/ptfs4br/</a>.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>runApp</span></div><div class='output co'>#&gt; function () 
-#&gt; {
-#&gt;     appDir &lt;- system.file("app", package = "ptfs4br")
-#&gt;     if (appDir == "") {
-#&gt;         stop("Could not find app. Try re-installing `ptfs4br`.", 
-#&gt;             call. = FALSE)
-#&gt;     }
-#&gt;     shiny::runApp(appDir, display.mode = "normal")
-#&gt; }
-#&gt; &lt;bytecode: 0x557f5c413088&gt;
-#&gt; &lt;environment: namespace:ptfs4br&gt;</div></pre>
+    <pre class="examples"><div class='input'><span class='kw'>if</span> (<span class='fl'>FALSE</span>) {
+<span class='fu'>runApp</span>()
+}</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

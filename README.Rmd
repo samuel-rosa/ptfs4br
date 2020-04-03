@@ -39,7 +39,17 @@ devtools::install_github(repo = "samuel-rosa/ptfs4br")
 ```
 
 [cran]: https://CRAN.R-project.org/package=ptfs4br
-[github]: https://github.com/samuel-rosa/spsann
+[github]: https://github.com/samuel-rosa/ptfs4br
+
+## Usage
+
+__ptfs4br__ can be used locally by running
+
+```r
+ptfs4br::runApp()
+```
+
+A web version of __ptfs4br__ is available at https://pedometria.shinyapps.io/ptfs4br/.
 
 ## How to collaborate
 

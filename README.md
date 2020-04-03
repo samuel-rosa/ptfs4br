@@ -28,13 +28,23 @@ The **ptfs4br** is not on
 [CRAN](https://CRAN.R-project.org/package=ptfs4br) yet.
 
 The development version of **ptfs4br**, available at
-[GitHub](https://github.com/samuel-rosa/spsann), can be installed using
+[GitHub](https://github.com/samuel-rosa/ptfs4br), can be installed using
 the **devtools** package with:
 
     if (!require(devtools)) {
       install.packages(pkgs = "devtools")
     }
     devtools::install_github(repo = "samuel-rosa/ptfs4br")
+
+Usage
+-----
+
+**ptfs4br** can be used locally by running
+
+    ptfs4br::runApp()
+
+A web version of **ptfs4br** is available at
+<a href="https://pedometria.shinyapps.io/ptfs4br/" class="uri">https://pedometria.shinyapps.io/ptfs4br/</a>.
 
 How to collaborate
 ------------------
