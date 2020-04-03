@@ -14,12 +14,13 @@ checks](https://cranchecks.info/badges/worst/ptfs4br)](https://cran.r-project.or
 [![Rdoc](http://www.rdocumentation.org/badges/version/ptfs4br)](http://www.rdocumentation.org/packages/ptfs4br)
 [![Downloads](http://cranlogs.r-pkg.org/badges/ptfs4br?color=brightgreen)](http://www.r-pkg.org/pkg/ptfs4br)
 
-The **ptfs4br** contains a collection of pedotransfer functions (PTFs),
-i.e. empirical models estimated to predict the values of soil properties
-from other soil properties and environmental covariates that are easier
-or cheaper to measure or that are more readily available, built using
-open legacy data collected in the Brazilian territory. The present
-version contains PTFs for predicting carbon and organic matter content.
+The **ptfs4br** contains a collection of pedotransfer functions (PTFs) –
+that is empirical models estimated to predict the values of soil
+properties from other soil properties and environmental covariates that
+are easier or cheaper to measure or that are more readily available –
+built using open legacy data collected in the Brazilian territory. The
+present version contains PTFs for predicting carbon and organic matter
+content.
 
 Installation
 ------------

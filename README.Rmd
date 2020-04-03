@@ -19,7 +19,7 @@ pkg.info <- drop(read.dcf(file = "DESCRIPTION", fields = c("Package", "Title", "
 [![Rdoc](http://www.rdocumentation.org/badges/version/`r pkg.info["Package"]`)](http://www.rdocumentation.org/packages/`r pkg.info["Package"]`)
 [![Downloads](http://cranlogs.r-pkg.org/badges/`r pkg.info["Package"]`?color=brightgreen)](http://www.r-pkg.org/pkg/`r pkg.info["Package"]`)
 
-The __ptfs4br__ contains a collection of pedotransfer functions (PTFs) -- i.e. empirical models estimated to
+The __ptfs4br__ contains a collection of pedotransfer functions (PTFs) -- that is empirical models estimated to
 predict the values of soil properties from other soil properties and environmental covariates that are easier 
 or cheaper to measure or that are more readily available -- built using open legacy data collected in the 
 Brazilian territory. The present version contains PTFs for predicting carbon and organic matter content.
