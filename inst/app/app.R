@@ -16,7 +16,7 @@ library(shiny)
 ui <- fluidPage(
   
   # App title ----
-  titlePanel("Pedotransfer functions for southern Brazil - carbon and organic matter"),
+  titlePanel("Pedotransfer Functions for Soil Applications in the Brazilian Territory"),
   
   # Sidebar layout with input and output definitions ----
   sidebarLayout(
@@ -158,8 +158,8 @@ getModel <-
     idx2 <- which(f == LETTERS[1:7])
     
     # Load calibrated models
-    load("sysdata.rda")
-    model <- model_fit[[idx1]][[idx2]]
+    load("carbon_and_organic_matter.rda")
+    model <- carbon_and_organic_matter[[idx1]][[idx2]]
     
     # Output
     return (model)
