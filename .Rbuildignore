@@ -4,3 +4,6 @@
 ^\.Rprofile$
 README.Rmd
 build-package.R
+docs
+pkgdown
+.travis.yml

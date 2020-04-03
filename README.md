@@ -14,11 +14,11 @@ checks](https://cranchecks.info/badges/worst/ptfs4br)](https://cran.r-project.or
 [![Rdoc](http://www.rdocumentation.org/badges/version/ptfs4br)](http://www.rdocumentation.org/packages/ptfs4br)
 [![Downloads](http://cranlogs.r-pkg.org/badges/ptfs4br?color=brightgreen)](http://www.r-pkg.org/pkg/ptfs4br)
 
-The **ptfs4br** contains a collection of pedotransfer functions (PTFs),
-i.e. empirical models estimated to predict the values of soil properties
+The **ptfs4br** contains a collection of pedotransfer functions (PTFs)
+built using open legacy data collected in the Brazilian territory. PTFs
+are empirical models estimated to predict the values of soil properties
 from other soil properties and environmental covariates that are easier
-or cheaper to measure or that are more readily available, built using
-open legacy data collected in the Brazilian territory. The present
+or cheaper to measure or that are more readily available. The present
 version contains PTFs for predicting carbon and organic matter content.
 
 Installation
@@ -28,8 +28,8 @@ The **ptfs4br** is not on
 [CRAN](https://CRAN.R-project.org/package=ptfs4br) yet.
 
 The development version of **ptfs4br**, available at
-[GitHub](https://github.com/samuel-rosa/spsann), can be downloaded –
-using the **devtools** package – with:
+[GitHub](https://github.com/samuel-rosa/spsann), can be installed using
+the **devtools** package with:
 
     if (!require(devtools)) {
       install.packages(pkgs = "devtools")

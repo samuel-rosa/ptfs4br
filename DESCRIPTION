@@ -8,10 +8,10 @@ Authors@R:
            role = c("aut", "cre"),
            email = "alessandrorosa@utfpr.edu.br",
            comment = c(ORCID = "0000-0003-0877-1320"))
-Description: Collection of pedotransfer functions (PTFs) -- i.e. empirical models estimated to predict the values
-   of soil properties from other soil properties and environmental covariates that are easier or cheaper to 
-   measure or that are more readily available -- built using open legacy data collected in the Brazilian 
-   territory. The present version contains PTFs for predicting carbon and organic matter content.
+Description: Collection of pedotransfer functions (PTFs) built using open legacy data collected in the 
+   Brazilian territory. PTFs are empirical models estimated to predict the values of soil properties from other
+   soil properties and environmental covariates that are easier or cheaper to measure or that are more readily
+   available. The present version contains PTFs for predicting carbon and organic matter content.
 Imports:
    shiny
 License: GPL (>= 2)
@@ -19,5 +19,5 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/samuel-rosa/ptfs4br/
+URL: https://github.com/samuel-rosa/ptfs4br/, https://pedometria.shinyapps.io/ptfs4br/
 BugReports: https://github.com/samuel-rosa/ptfs4br/issues/
