@@ -14,12 +14,22 @@ pkg.info <- drop(read.dcf(file = "DESCRIPTION", fields = c("Package", "Title", "
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![packageversion](https://img.shields.io/badge/devel%20version-`r pkg.info["Version"]`-firebrick.svg?style=flat-square)](commits/master)
 [![Build Status](https://travis-ci.org/samuel-rosa/`r pkg.info["Package"]`.svg?branch=master)](https://travis-ci.org/samuel-rosa/`r pkg.info["Package"]`)
-[![CRAN](https://www.r-pkg.org/badges/version/`r pkg.info["Package"]`)](https://cran.r-project.org/package=`r pkg.info["Package"]`)
+<!-- [![CRAN](https://www.r-pkg.org/badges/version/`r pkg.info["Package"]`)](https://cran.r-project.org/package=`r pkg.info["Package"]`) -->
 [![cran checks](https://cranchecks.info/badges/worst/`r pkg.info["Package"]`)](https://cran.r-project.org/web/checks/check_results_`r pkg.info["Package"]`.html)
 [![Rdoc](http://www.rdocumentation.org/badges/version/`r pkg.info["Package"]`)](http://www.rdocumentation.org/packages/`r pkg.info["Package"]`)
 [![Downloads](http://cranlogs.r-pkg.org/badges/`r pkg.info["Package"]`?color=brightgreen)](http://www.r-pkg.org/pkg/`r pkg.info["Package"]`)
 
+The __ptfs4br__ contains a collection of pedotransfer functions (PTFs) -- i.e. empirical models estimated to
+predict the values of soil properties from other soil properties and environmental covariates that are easier 
+or cheaper to measure or that are more readily available -- built using open legacy data collected in the 
+Brazilian territory. The present version contains PTFs for predicting carbon and organic matter content.
+
 ## Installation
+
+The __ptfs4br__ is not on [CRAN][cran] yet.
+
+The development version of __ptfs4br__, available at [GitHub][github], can be downloaded -- using the 
+__devtools__ package -- with:
 
 ```R
 if (!require(devtools)) {
@@ -27,3 +37,15 @@ if (!require(devtools)) {
 }
 devtools::install_github(repo = "samuel-rosa/ptfs4br")
 ```
+
+[cran]: https://CRAN.R-project.org/package=ptfs4br
+[github]: https://github.com/samuel-rosa/spsann
+
+## How to collaborate
+
+We use the *fork & pull* collaborative development model. This means that you are free to make a parallel copy 
+of this repository, change the source code as you see fit, and then *push* the changes to your personal copy of
+this repository. All this without requiring any authorization. If the changes you've made to your personal copy
+of this repository are interesting and you're willing to share them with us, then just have them pulled -- 
+*pull request* -- to this repository. After reviewing the changes, we will decide whether they can be merged --
+*merge* -- with the source code of this repository.

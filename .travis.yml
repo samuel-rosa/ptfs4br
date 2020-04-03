@@ -1,0 +1,18 @@
+# Sample .travis.yml for R projects
+
+language: r
+warnings_are_errors: true
+sudo: required
+dist: trusty
+
+before_install:
+  - sudo apt-get --yes --force-yes update -qq
+
+env:
+ global:
+   - CRAN: http://cran.rstudio.com
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
